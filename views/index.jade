@@ -1,5 +1,11 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 RESTful API
+  h2  Timestamp Microservice
+  p.red Example Usage
+  code localhost:3000/August 14, 2016
+  br
+  code localhost:3000/123123123
+  p.red Expect Output is JSON
+  code { "unix": 123123123, "natural": "August 14, 2016" }
